@@ -37,4 +37,16 @@ public class Kudo {
     public Long getId() {
         return id;
     }
+
+    public TipoKudo getNome() {
+        return nome;
+    }
+
+    public LocalDateTime getCriadoEm() {
+        return criadoEm;
+    }
+
+    public String getNomeZupperEnviado() {
+        return this.enviado.getNome();
+    }
 }

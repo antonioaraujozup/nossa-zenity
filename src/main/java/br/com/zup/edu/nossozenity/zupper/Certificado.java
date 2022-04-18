@@ -45,4 +45,20 @@ public class Certificado {
     public Long getId() {
         return id;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getInstituicaoEmissora() {
+        return instituicaoEmissora;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public TipoCertificado getTipo() {
+        return tipo;
+    }
 }
